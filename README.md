@@ -164,7 +164,7 @@ If you like this project please give it a star
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT]() licensed.
+This project is [MIT](https://github.com/Alabi12/TDD-project/blob/feature/TDD/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
