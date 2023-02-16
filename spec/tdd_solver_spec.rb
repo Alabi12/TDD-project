@@ -19,4 +19,16 @@ describe Solver do
             expect(@solver.reverse('hello')).to eql 'olleh'
         end
     end
+
+    context 'Testing the fizzbuzz method' do
+        it 'should return a string fizz if divible by 3' do
+            expect(@solver.fizzbuzz(6)).to eql 'fizz'
+        end
+        it 'should return a string buzz if divible by 5' do
+            expect(@solver.fizzbuzz(10)).to eql 'buzz'
+        end
+        it 'should return a string fizzbuzz if divible by 3 and 5' do
+            expect(@solver.fizzbuzz(15)).to eql 'fizzbuzz'
+        end
+    end
 end
