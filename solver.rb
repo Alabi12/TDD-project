@@ -1,10 +1,11 @@
-# class Solver
-#   def factorial(value)
-#     raise ArgumentError, 'N must be 0 or positive integer.' if value.negative?
-#     return 1 if value.zero?
+class Solver
+  def factorial(value)
+    raise ArgumentError, 'N must be 0 or positive integer.' if value.negative?
+    return 1 if value.zero?
 
-#     (1..value).reduce(:*)
-#   end
+    (1..value).reduce(:*)
+  end
+end
 
 #   def reverse(word)
 #     word.reverse
