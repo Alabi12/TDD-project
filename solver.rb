@@ -1,18 +1,20 @@
 class Solver
-    def factorial(n)
-      raise ArgumentError, "N must be 0 or positive integer." if n < 0
-      return 1 if n == 0
-      (1..n).reduce(:*)
-    end
+  def factorial(value)
+    raise ArgumentError, 'N must be 0 or positive integer.' if value.negative?
+    return 1 if value.zero?
 
-    def reverse(word)
-      word.reverse
-    end
+    (1..value).reduce(:*)
+  end
 
-    def fizzbuzz(n)
-     return "fizzbuzz" if n % 15 == 0
-     return "fizz" if n % 3 == 0
-     return "buzz" if n % 5 == 0
-    n.to_s
-    end
+  def reverse(word)
+    word.reverse
+  end
+
+  def fizzbuzz(number)
+    return 'fizzbuzz' if (number % 15).zero?
+    return 'fizz' if (number % 3).zero?
+    return 'buzz' if (number % 5).zero?
+
+    number.to_s
+  end
 end
