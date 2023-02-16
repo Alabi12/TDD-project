@@ -5,11 +5,11 @@ class Solver
 
     (1..value).reduce(:*)
   end
-end
 
-#   def reverse(word)
-#     word.reverse
-#   end
+  def reverse(word)
+    word.reverse
+  end
+end
 
 #   def fizzbuzz(number)
 #     return 'fizzbuzz' if (number % 15).zero?
