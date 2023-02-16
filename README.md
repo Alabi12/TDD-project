@@ -1,5 +1,4 @@
 
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -11,6 +10,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#Install)
   - [Usage](#Usage)
+  - [Test](#Test)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -21,8 +21,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [School library] <a name="about-project"></a>
-This repo is a school library tool that allows you to record what books are in the library and who borrows them, the project focused on practicing the main four concepts in oop using ruby.
+# 📖 [TDD project] <a name="about-project"></a>
+In this repo, we are testing the methods from a class using the TDD approach in which we write the tests first before creating the methods in the class.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,7 +42,9 @@ This repo is a school library tool that allows you to record what books are in t
 
 > Describe between 1-3 key features of the application.
 
-- **[created 3 classes]**
+- **[Factorial]**
+- **[Reverse]**
+- **[Fizzbuzz]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,11 +67,11 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 ```sh
-cd [your-folder] https://github.com/anyepeter/school_library_oop.git
+git clone https://github.com/Alabi12/TDD-project.git
 ```
 cd my-folder
 ```sh
-  cd school_library_oop
+  cd TDD-project
 ```
 ### Install
 Install the project using the following 
@@ -79,13 +81,12 @@ bundler install
 ### Usage 
 To run the project, execute the following command:
 ```sh
-ruby person.rb
+ruby solver.rb
 ```
 
 ### Test
 ```sh
-  
-  rubocop
+  rspec spec
 ```
 
 <!-- AUTHORS -->
@@ -100,9 +101,9 @@ ruby person.rb
 
 👤 **Robert O. Alabi**
 
-- GitHub: [@anyepeter](https://github.com/Alabi12)
-- Twitter: [@apcode](https://twitter.com/wolo_robert)
-- LinkedIn: [peterchendi](https://www.linkedin.com/in/robert-alabi/)
+- GitHub: [@Alabi](https://github.com/Alabi12)
+- Twitter: [@Alabi](https://twitter.com/wolo_robert)
+- LinkedIn: [robert-alabi](https://www.linkedin.com/in/robert-alabi/)
 
 <!-- FUTURE FEATURES -->
 
@@ -120,7 +121,7 @@ ruby person.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/anyepeter/school_library_oop/issues).
+Feel free to check the [issues page](https://github.com/Alabi12/TDD-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,6 +164,7 @@ If you like this project please give it a star
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/anyepeter/school_library_oop/blob/add_classes/LICENSE) licensed.
+This project is [MIT]() licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
